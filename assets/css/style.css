@@ -26,6 +26,10 @@ body {
     padding: 10%;
 }
 
+.main-about-textwidth-container {
+    max-width: 30vw;
+}
+
 /* Media Icons */
 .fa {
     font-size: 30px;
@@ -118,4 +122,26 @@ h4 {
     display: flex;
     gap: 50px;
     margin: 20px 0;
+}
+
+/* About */
+.main-about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-about-intro-text {
+    max-width: 50vw;
+}
+
+.main-about-article {
+    background: lightgray;
+    padding: 20px;
+}
+
+.main-about-school,
+.main-about-school-text {
+    text-align: right;
+    max-width: unset;
 }
