@@ -85,6 +85,7 @@ h4 {
     justify-content: space-between;
     align-items: center;
     background: #f3f3f3;
+    min-width: 100vw;
 }
 
 .header-nav-ul {
@@ -175,5 +176,38 @@ h4 {
         opacity:1;
         transform: translateY(0);
 
+    }
+}
+
+/* Media */
+@media (max-width: 1000px) {
+    .header{
+        flex-direction: column;
+        padding: 10%;
+        justify-content: center;
+    }
+    .header-nav-ul-li {
+        float: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+    .main-home {
+        text-align: center;
+    }
+    .main-home-socials {
+        justify-content: center;
+    }
+    .main-about-article {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-about-textwidth-container {
+        margin-bottom: 40px;
+        max-width: unset;
+    }
+    .main-about-title {
+        margin-top: 40px;
     }
 }
